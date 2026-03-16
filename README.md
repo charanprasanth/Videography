@@ -1,6 +1,6 @@
 # Flutter Videography
 
-A clean, minimal video trimming app for iOS and Android built with Flutter. Pick a video, drag the trim handles, preview your clip, and export it straight to your gallery — all powered by FFmpegKit under the hood.
+A clean, minimal video trimming app for iOS and Android built with Flutter. Pick a video, drag the trim handles, preview your clip and export it straight to your gallery — all powered by FFmpegKit under the hood.
 
 ---
 
@@ -44,28 +44,10 @@ A clean, minimal video trimming app for iOS and Android built with Flutter. Pick
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/flutter-video-trimmer.git
-cd flutter-video-trimmer
+git clone https://github.com/charanprasanth/Videography.git
+cd Videography
 flutter pub get
 flutter run
-```
-
-### iOS — Required `Info.plist` entries
-
-```xml
-<key>NSPhotoLibraryUsageDescription</key>
-<string>Used to save trimmed videos to your gallery.</string>
-
-<key>NSPhotoLibraryAddUsageDescription</key>
-<string>Used to save trimmed videos to your gallery.</string>
-```
-
-### Android — Required permissions (`AndroidManifest.xml`)
-
-```xml
-<uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-    android:maxSdkVersion="28"/>
 ```
 
 ---
