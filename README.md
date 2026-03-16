@@ -74,14 +74,29 @@ ffmpeg -y -ss <start> -i <input> -t <duration> -c copy <output>
 
 ```
 lib/
+├── components/                       # Small, focused UI components
+│   ├── action_button.dart
+│   ├── duration_badge.dart
+│   ├── empty_state.dart
+│   ├── filmstrip_bar.dart
+│   ├── outline_button.dart
+│   ├── play_pause_button.dart
+│   ├── render_button.dart
+│   ├── render_overlay.dart
+│   ├── seek_button.dart
+│   ├── time_chip.dart
+│   ├── top_bar.dart
+│   └── trim_handle.dart
 ├── models/
-│   └── trim_job.dart          # Data class: input, output, start, end
+│   └── trim_job.dart               # Data class: input, output, start, end
 ├── screens/
-│   └── video_editor_screen.dart  # Main UI + playback + render logic
+│   ├── video_editor_screen.dart    # Main UI + playback + render logic
+│   └── video_preview_screen.dart   # Fullscreen preview of trimmed output
 ├── services/
 │   └── video_trimmer_service.dart  # FFmpegKit execution
-└── widgets/
-    └── video_trim_slider.dart  # Custom dual-handle range slider
+├── widgets/
+│   └── video_trim_slider.dart      # Custom dual-handle range slider
+└── main.dart
 ```
 
 ---
