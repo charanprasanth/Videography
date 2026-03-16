@@ -71,7 +71,6 @@ class _VideoPreviewScreenState extends State<VideoPreviewScreen> {
 
   Future<void> _shareOrSaveToFiles() async {
     try {
-      // ignore: deprecated_member_use
       await Share.shareXFiles([XFile(widget.videoPath)], text: 'Trimmed video');
     } catch (e) {
       _showSnackBar('Failed to share: $e', isError: true);
