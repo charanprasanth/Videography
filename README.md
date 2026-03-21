@@ -17,7 +17,8 @@ A clean, minimal video trimming app for iOS and Android built with Flutter. Pick
 
 ## Screenshots
 
-<img src="screenshots/1000000488.png" width="250" /> <img src="screenshots/1000000490.png" width="250" />
+<img src="screenshots/1000000488.png" width="250" /> <img src="https://github.com/user-attachments/assets/753a6230-9115-4fc4-908e-f2b1cb0440de" width="250" />
+
 
 ---
 
